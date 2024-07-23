@@ -123,6 +123,37 @@
   .advantages {
     padding-top: 94px;
   }
+
+  .advantages-item::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--team-background);
+    background-image: url(../img/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+    margin-bottom: 30px;
+    display: block;
+    
+    
+    
+      }
+      
+      .advantages-item:nth-child(2)::before{
+        background-image: url(../img/godini.png);
+    
+      }
+    
+      .advantages-item:nth-child(3)::before{
+        background-image: url(../img/diagram.png);
+        
+      }
+    
+      .advantages-item:nth-child(4)::before{
+        background-image: url(../img/astronavt.png);
+      }
   
   .advantages-list {
     display: flex;
