@@ -197,8 +197,8 @@
     margin-bottom: 50px;
   }
 
-  .work-picture {
-    width: 270px;
+  .team-picture {
+    max-width: 100%;
   }
   
   .work-list {
@@ -209,10 +209,6 @@
   .work-item {
     flex-basis: calc((100% - 60px) / 3);
   }
-  
-  /* .work-picture {
-    flex-basis: calc((100% ));
-  } */
   
   .work-img {
     width: 100%;
@@ -243,12 +239,14 @@
   }
 
   .team-item {
-  flex-basis:calc((100% - 90px) / 4);}
+  flex-basis:calc((100% - 90px) / 4);
+}
   
   .team-vraper {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: var(--main-background);
+
   }
   
   .team-list {
